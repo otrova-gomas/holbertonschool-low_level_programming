@@ -4,15 +4,16 @@
  * main - print all possible combinations of numbers between 0-9
  *
  *
+ * Return: Always (0)
  */
 int main(void)
 {
   int sdn;
 
-for (sdn = 0; sdn <=9; sdn++)
+for (sdn = 0; sdn <= 9; sdn++)
 {
 putchar((sdn % 10) + '0');
-if (sdn==9)
+if (sdn == 9)
 continue;
 putchar(',');
 putchar(' ');
