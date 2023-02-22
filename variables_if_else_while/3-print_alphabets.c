@@ -1,4 +1,4 @@
-#include <stdio.h>
+ #include <stdio.h>
 
 /**
  * main - Print alphabet in lowercase and uppercase
@@ -10,13 +10,13 @@ int main(void)
 {
   char Aa;
 
-  for (Aa = 'a'; Aa <= 'z'; Aa++)
+  for(Aa = 'a'; Aa <= 'z'; Aa++)
+	putchar(Aa);
+  
+  for(Aa = 'A'; Aa <= 'Z'; Aa++)
 	putchar(Aa);
 
-  for (Aa = 'A'; Aa <= 'Z'; Aa++)
-	putchar(Aa);
-
-	putchar('\n');
+  putchar('\n');
 
 	return (0);
 }
