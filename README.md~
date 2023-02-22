@@ -1,0 +1,1 @@
+This is a repository that manly focuses on our first projects related to the C programming language
