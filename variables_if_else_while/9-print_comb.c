@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-  int sdn;
+int sdn;
 
 for (sdn = 0; sdn <= 9; sdn++)
 {
