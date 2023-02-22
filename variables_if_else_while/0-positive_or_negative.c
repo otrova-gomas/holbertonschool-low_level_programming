@@ -4,11 +4,8 @@
 
 /**
  * main - print if the total is positive negative or 0
- *
- *
  *Return: Always 0 (Success)
  */
-
 int main (void)
 {
   int n;
@@ -26,8 +23,9 @@ int main (void)
     }
   else
     {
-      printf("%d id negative\n", n);
+      printf("%d is negative\n", n);
     }
   
   return (0); 
   
+}
