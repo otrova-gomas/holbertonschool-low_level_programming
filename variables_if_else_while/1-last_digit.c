@@ -1,5 +1,10 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <time>
+
 /**
  * main - Print the last digit of a randomly generated number
+ *
  *
  * Return: Always 0 
  */
@@ -9,9 +14,9 @@ int main(void)
   int t;
 
   srand(time(0));
-  n = rand() - RAND_MAX / 2;
+  n = rand()-RAND_MAX / 2;
   t = n % 10;
-}
+  
   if(t > 5)
     {
       printf("Last digit of %d is %d and is greater than 5\n", n, t);
