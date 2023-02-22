@@ -14,8 +14,8 @@ for (sdn = 0; sdn <=9; sdn++)
 putchar((sdn % 10) + '0');
 if (sdn==9)
 continue;
-putchar (',');
-putchat(' ');
+putchar(',');
+putchar(' ');
 }
 putchar ('\n');
 return (0);
