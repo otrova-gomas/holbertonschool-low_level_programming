@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- * main - Prints the alphabet without q and e.
+ * main - Print the alphabet without q and e.
  *
  *
  * Return: Always 0
@@ -13,7 +13,7 @@ int main(void)
   Char aa;
 
  for(aa = 'a'; aa <= 'z'; aa++)
-   if (aa != 'e' && la != 'q')
+   if (aa != 'e' && aa != 'q')
    putchar(aa);
 
 
