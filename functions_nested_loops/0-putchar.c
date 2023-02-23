@@ -1,5 +1,4 @@
-#include <stdio.h>
-
+#include <_putchar.c>
 /**
  * main - print _putchar
  *
@@ -9,5 +8,6 @@
 int main (void)
 
 {
- printf ("_putchar\n");   
+ printf ("_putchar\n");
+ return (0);
 }
