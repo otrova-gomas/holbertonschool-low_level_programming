@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * int _islower(int c)
- * desc c is lowercase
- * func @c lowercase
- *
+ * _islower(int c) - checks for lower case letters
+ * @c variable
+ * Return: Always 0
  */
 int _islower(int c)
 {
