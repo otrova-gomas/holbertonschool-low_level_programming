@@ -13,5 +13,5 @@ int last_digit;
 last_digit = num % 10;
 printf("The last digit of %d is %d\n", num, last_digit);
 
-return (last_digit);
+return (last_digit)
 }
