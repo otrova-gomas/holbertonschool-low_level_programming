@@ -24,7 +24,7 @@ _putchar(result % 10 + '0');
 if (num2 != 9)
 {
 _putchar(',');
- _putcher(' ');
+_putchar(' ');
 }
 }
 _putchar('\n');
