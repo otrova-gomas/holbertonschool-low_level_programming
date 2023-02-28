@@ -16,22 +16,19 @@ result = num1 * num2;
 if (result > 9)
 {
 _putchar(result / 10 + '0');
+_putchar(result % 10 + '0');
 }
 else
 {
-_putchar(' ');
+_putchar(result + '0');
 }
-_putchar(result % 10 + '0');
 
 if (num2 != 9)
-            {
+{
 _putchar(',');
 _putchar(' ');
 }
-else
-{
+}
 _putchar('\n');
-}
-}
 }
 }
