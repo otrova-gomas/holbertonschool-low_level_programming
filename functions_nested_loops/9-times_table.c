@@ -1,7 +1,12 @@
 #include "main.h"
 
 /**
-*times_table - prints 9 mult table                                                                                                                                                                                                                                                                                                                                                         *                                                                                                                                                                                                                                                                                                                                                                                          */
+*times_table - prints 9 mult table
+*@num1 first int
+*@num2 second int
+*@result result
+*Return: Always 0
+*/
 
 void times_table(void)
 {
