@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
  *reset_to_98 - takes int updates the val to 98
  *
