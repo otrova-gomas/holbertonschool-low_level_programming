@@ -2,7 +2,7 @@
 
 /**
  * puts2 - Prints every other chactr
- * 
+ *
  * @str: Pointer to the string to be printed.
  *
  * Return: void
