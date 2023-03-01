@@ -2,15 +2,15 @@
 
 /**
  * _puts - print a string
- *@string : variable 
+ *@str : variable 
  *Return: string
  */
-void _puts(char *string)
+void _puts(char *str)
 {
 int i;
-for (i = 0; string[i] != '\0'; i++)
+for (i = 0; str[i] != '\0'; i++)
 {
-_putchar(string[i]);
+_putchar(str[i]);
 }
  _putchar('\n');
 }
