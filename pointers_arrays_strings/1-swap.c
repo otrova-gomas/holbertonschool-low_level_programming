@@ -3,8 +3,8 @@
 
 /**
  * swap_int - swaps values of int
- * @param a - first variable
- * @param b - second variable
+ * @member a - first variable
+ * @member b - second variable
  *
  */
 void swap_int(int *a, int *b)
