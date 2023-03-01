@@ -3,9 +3,9 @@
 
 /**
  * swap_int - swaps values of int
- * @member a - first variable
- * @member b - second variable
- *
+ * @a: first variable
+ * @b: second variable
+ * Return: void
  */
 void swap_int(int *a, int *b)
 {
